@@ -6,7 +6,7 @@ const GITHUB_API_URL = 'https://api.github.com';
 const githubClient = axios.create({
   baseURL: GITHUB_API_URL,
   headers: {
-    Authorization: `token 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`,
+    Authorization: `token `,
   },
 });
 

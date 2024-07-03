@@ -15,4 +15,14 @@ export interface Commit {
     };
     // Ajoutez d'autres champs si nécessaire
   }
+
   
+  export interface JiraIssue {
+    id: string;
+    key: string;
+    fields: {
+      summary: string;
+      description: string;
+      // Ajoutez d'autres champs si nécessaire
+    };
+  }
